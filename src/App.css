@@ -1,0 +1,21 @@
+/* src/App.css */
+.container {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial;
+}
+
+input {
+  display: block;
+  margin: 8px 0;
+  padding: 6px;
+  width: 100%;
+}
+
+button {
+  padding: 8px 12px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
