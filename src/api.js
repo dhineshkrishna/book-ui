@@ -1,5 +1,5 @@
 // src/api.js
-const API_URL = "https://book-crud-592o.onrender.com/";
+const API_URL = "https://book-crud-592o.onrender.com/books/";
 
 export async function getBooks() {
   const res = await fetch(API_URL);
@@ -14,4 +14,5 @@ export async function addBook(book) {
   });
   return res.json();
 }
+
 
